@@ -8,7 +8,7 @@ export const Route = createFileRoute("/")({
 function RouteComponent() {
   return (
     <HeroUIProvider>
-      <Button variant="bordered" color="primary" className="bg-red-50">
+      <Button variant="bordered" color="primary" className="bg-red-500">
         hi
       </Button>
     </HeroUIProvider>
